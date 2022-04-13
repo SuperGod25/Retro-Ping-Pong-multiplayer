@@ -21,3 +21,15 @@ C:\Users\filip\Desktop\RetroPingPong-master\obj\Debug\PingPong.exe
 C:\Users\filip\Desktop\RetroPingPong-master\obj\Debug\PingPong.pdb
 C:\Users\filip\Desktop\RetroPingPong-master\obj\Debug\PingPong.csproj.AssemblyReference.cache
 C:\Users\filip\Desktop\RetroPingPong-master\obj\Debug\PingPong.Multiplayer.resources
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\bin\Debug\PingPong.exe.config
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\bin\Debug\PingPong.exe
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\bin\Debug\PingPong.pdb
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.Form1.resources
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.Joc.resources
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.Multiplayer.resources
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.Properties.Resources.resources
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.csproj.GenerateResource.cache
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.exe
+C:\Users\filip\Desktop\RetroPingPong Multiplayer\obj\Debug\PingPong.pdb

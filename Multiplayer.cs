@@ -16,7 +16,7 @@ namespace PingPong
         public bool up1, down1, up2, down2;
         
 
-        float ballPosX = 10, ballPosY = 10;
+        float ballPosX = 6, ballPosY = 6;
         int player1Score = 0, player2Score = 0;
         public string playerName1 = Microsoft.VisualBasic.Interaction.InputBox("Ping Pong", "Introduceti-va numele de jucator", " ", 800, 192);
         public string playerName2 = Microsoft.VisualBasic.Interaction.InputBox("Ping Pong", "Introduceti-va numele de jucator", " ", 800, 192);
@@ -139,7 +139,7 @@ namespace PingPong
                 player2Bar.Top += 10;
             }
 
-            if (player1Score==30)
+            if (player1Score>30)
             {
                 timer1.Stop();
                 
@@ -148,10 +148,10 @@ namespace PingPong
                         "apasa butonul NO", "WinMessage", MessageBoxButtons.YesNo);
                     if (dg == DialogResult.Yes)
                     {
-                        Joc joc = new Joc();
+                        Multiplayer multiplayer = new Multiplayer();
                         this.Hide();
-                        joc.Closed += (s, args) => this.Close();
-                        joc.Show();
+                        multiplayer.Closed += (s, args) => this.Close();
+                        multiplayer.Show();
                     }
                     else if (dg == DialogResult.No)
                     {
@@ -162,17 +162,17 @@ namespace PingPong
                     }
                 
             }
-            if (player2Score==30)
+            if (player2Score>30)
             {
                 timer1.Stop();
                 DialogResult dg = MessageBox.Show(player2Name_lbl.Text+" a castigat! Daca vrei sa joci din nou apasa butonul YES, altfel, " +
                      "apasa butonul NO", "WinMessage", MessageBoxButtons.YesNo);
                 if (dg == DialogResult.Yes)
                 {
-                    Joc joc = new Joc();
+                    Multiplayer multiplayer = new Multiplayer();
                     this.Hide();
-                    joc.Closed += (s, args) => this.Close();
-                    joc.Show();
+                    multiplayer.Closed += (s, args) => this.Close();
+                    multiplayer.Show();
                 }
                 else if (dg == DialogResult.No)
                 {
